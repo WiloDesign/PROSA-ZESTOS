@@ -23,7 +23,6 @@
     </nav>
 </header>
 
-
 <body>
 <section id="hero" class="hero-fullscreen">
     <div class="hero-content">
@@ -68,50 +67,57 @@
     </div>
 </section>
 
+<!-- SECCIÓN DE COMPRA MEJORADA -->
 <section id="compra">
-  <div class="compra-container">
-    <div class="compra-carousel">
-      <div class="carousel">
-        <button class="carousel-button prev" aria-label="Imagen anterior">&#10094;</button>
-        <div class="carousel-images">
-          <img src="./PNG/LAVACABEZAS SOLO.bip.358.png" alt="Vista Frontal" class="active">
-          <img src="./PNG/LAVACABEZAS SOLO.bip.359.png" alt="Vista Lateral">
-          <img src="./PNG/LAVACABEZAS SOLO.bip.360.png" alt="Vista Trasera">
-            <img src="./PNG/LAVACABEZAS SOLO.bip.361.png" alt="Vista Superior">
+    <div class="compra-container">
+        <!-- Carrusel a pantalla completa -->
+        <div class="compra-carousel">
+            <div class="carousel">
+                <button class="carousel-button prev" aria-label="Imagen anterior">&#10094;</button>
+                <div class="carousel-images">
+                    <img src="./PNG/vistas.8.png" alt="Vista Frontal del Lavacabezas PROSA ZESTOS" class="active">
+                    <img src="./PNG/vistas.9.png" alt="Vista Lateral del Lavacabezas PROSA ZESTOS">
+                    <img src="./PNG/vistas.10.png" alt="Vista Trasera del Lavacabezas PROSA ZESTOS">
+                    <img src="./PNG/vistas.7.png" alt="Vista Superior del Lavacabezas PROSA ZESTOS">
+                    <img src="./PNG/vistas.6.png" alt="Vista Detalle del Lavacabezas PROSA ZESTOS">
+                    <img src="./PNG/vista.5.png" alt="Vista Inferior del Lavacabezas PROSA ZESTOS">
+                </div>
+                <button class="carousel-button next" aria-label="Imagen siguiente">&#10095;</button>
+                
+                <!-- Indicadores del carrusel -->
+                <div class="carousel-indicators">
+                    <span class="dot active-dot" aria-label="Imagen 1"></span>
+                    <span class="dot" aria-label="Imagen 2"></span>
+                    <span class="dot" aria-label="Imagen 3"></span>
+                    <span class="dot" aria-label="Imagen 4"></span>
+                    <span class="dot" aria-label="Imagen 5"></span>
+                    <span class="dot" aria-label="Imagen 6"></span>
+                </div>
+            </div>
         </div>
-        <button class="carousel-button next" aria-label="Imagen siguiente">&#10095;</button>
-      </div>
+        
+        <!-- Panel de información del producto -->
+        <div class="product-details">
+            <div class="product-info">
+                <h3 class="product-name">Lavacabezas PROSA ZESTOS</h3>
+                <p class="product-description">La máxima comodidad y ergonomía para profesionales que buscan destacar en su salón. Diseñado con los más altos estándares de calidad.</p>
+                
+                <ul class="product-features">
+                    <li>Asiento ergonómico adaptable a cualquier cliente</li>
+                    <li>Estructura de fibra de vidrio ultra resistente</li>
+                    <li>Compatible con cualquier instalación existente</li>
+                    <li>Sistema hidráulico silencioso y suave</li>
+                    <li>Acabados premium en materiales nobles</li>
+                    <li>Garantía extendida de 3 años</li>
+                </ul>
+                
+                <p class="product-price">€1.850,00</p>
+                
+                <button class="cta-button" onclick="añadirAlCarrito()">Añadir al carrito</button>
+            </div>
+        </div>
     </div>
-    <div class="compra-info">
-      <h2 class="product-tagline">Transforma tu salón en una experiencia de lujo</h2>
-      <button class="cta-button" onclick="scrollToCompra()">Comprar ahora</button>
-    </div>
-  </div>
 </section>
-
-
-    <div class="product-details">
-    <div class="product-info">
-        <h3 class="product-name">Lavacabezas PROSA ZESTOS</h3>
-        <p class="product-description">La máxima comodidad y ergonomía para profesionales que buscan destacar.</p>
-        <ul class="product-features">
-            <li>✔ Asiento ergonómico adaptable</li>
-            <li>✔ Estructura de acero inoxidable</li>
-            <li>✔ Compatible con cualquier instalación</li>
-            <li>✔ Sistema hidráulico silencioso</li>
-        </ul>
-        <p class="product-price">€1850,00</p>
-        <button class="cta-button" onclick="añadirAlCarrito()">Añadir al carrito</button>
-    </div>
-</div>
-
-<div class="carousel-indicators">
-    <span class="dot active-dot"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
-</div>
-</section>
-
 
 <section id="testimonios" class="testimonios">
     <h2>Lo que dicen nuestros clientes</h2>
